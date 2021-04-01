@@ -9,11 +9,11 @@
             "command": "/usr/bin/g++",
             "args": [
                 "-g",
-                "-I${fileDirname}/include",
-                "challenge1/challenge1.cpp",
-                "test.cpp",
+                "-I./include",
+                "src/challenge1/challenge1.cpp",
+                "src/main.cpp",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "./bin/${fileBasenameNoExtension}"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
